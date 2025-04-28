@@ -26,10 +26,11 @@ Burndown Chart ekleyebilirsin.
 
 Melisa Backend -> 2-django ile projeyi başlattı 3-userlar için ilk appi ekledi 6-modeller için gereken kodu oluşturdu
 
-Bengisu Veri Tabanı -> 1- projeyi başlatıp sizi ekledim 4-dbyi postresqle çevirdim 5- İlk modelleri oluşturdum
+Bengisu Testing -> 1- projeyi başlatıp sizi ekledim 4-dbyi postresqle çevirdim 5- İlk modelleri oluşturdum
 
-Aslı ve Tuğçe Frontend -> 6- proje için bir base.html oluşturuldu 7-tuğçe base.htmle ekstra özellikler ekledi 8-modelleri htmlde kullılabilir hale getirdi
+Tuğçe Frontend -> 6- proje için bir base.html oluşturuldu 7-tuğçe base.htmle ekstra özellikler ekledi 8-modelleri htmlde kullılabilir hale getirdi
 
+Aslı Veri Tabanı
 Task
 
 Bengisu doküman oluşturdu. Push (p)
@@ -40,7 +41,7 @@ Tracability nedensellik zinciri problemin root cause
 
 📋 Project Plan Nasıl Oluşturulur?
 1. Projenin Amacını Belirle
-Öncelikle neden bu projeyi yapıyorsun?
+Öncelikle neden bu projeyi yapıyorsun? 
 
 Hedef kitlen kim? Hangi sorunu çözecek?
 
@@ -55,19 +56,28 @@ Başlangıçta hangi özellikler olacak? (MVP: Minimum Viable Product)
 
 Örnek:
 
-Kullanıcı kaydı ve girişi
+2. Proje Kapsamı
+Kullanıcı kaydı ve giriş sistemi
 
-Yiyecek ekleme ve listeleme
+Proje oluşturma
 
-Günlük toplam kalori/makro gösterimi
-(İlk aşamada mesela sosyal özellikler yok)
+Sprint oluşturma
 
-3. İş Kırılımı (Work Breakdown Structure - WBS) Yap
-Projeyi küçük adımlara böl.
+User Story ve Task ekleme
 
-Hangi adımda neler yapılacak?
+Task'ları durumlara göre (To Do, In Progress, Done) yönetme
 
-Örnek WBS:
+3. İş Kırılımı (WBS)
+
+Modül	Yapılacak İş	Açıklama
+Kullanıcı Yönetimi	Kullanıcı kaydı	Kullanıcı e-posta ve şifre ile kayıt olabilir.
+Kullanıcı Yönetimi	Kullanıcı girişi	Kullanıcı sisteme giriş yapabilir.
+Proje Yönetimi	Proje oluşturma	Kullanıcı yeni bir proje başlatabilir.
+Sprint Yönetimi	Sprint ekleme	Projeye sprint ekleyebilir (başlangıç-bitiş tarihi).
+User Story Yönetimi	User Story ekleme	Sprint içine user story ekleyebilir.
+Task Yönetimi	Task ekleme	User story altına görev ekleyebilir.
+Task Yönetimi	Task durum değiştirme	Görevler To Do, In Progress, Done durumlarına alınabilir.
+Task Yönetimi	Task kişiye atama (Opsiyonel)	Görevler kullanıcıya atanabilir.
 
 Backend Geliştirme:
 
