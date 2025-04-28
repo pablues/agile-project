@@ -124,27 +124,29 @@ Nerelerde sorun çıkabilir?
 
 Mesela AWS'de deploy zorlukları, veri tabanı problemleri, vs.
 
-Örnek Riskler:
+Risks:
 
-Docker kurulumu ve AWS yapılandırması gecikebilir.
+problems with Docker ve AWS.
 
-API hız problemleri yaşanabilir.
+API speed problems
 
-7. Teslimatları (Deliverables) Tanımla
-Hangi somut çıktıları teslim edeceksin?
 
-Örnek:
-
-Çalışan web uygulaması
-
-API dökümantasyonu
-
-Kullanım kılavuzu
-
-🎯 Kısacası Bir Project Plan Böyle Oluyor:
-
-Aşama	Yapılacak İş	Tarih	Sorumlu
-Backend API geliştirme	Kullanıcı ve yiyecek CRUD işlemleri	1-7 Mayıs	Bengisu
-Frontend tasarım	Login ve dashboard	8-14 Mayıs	Bengisu
+Aşama	                      Yapılacak İş	               Tarih	                      Sorumlu
+Backend API geliştirme	   User register,login 	           1-3 Mayıs	                   Melisa
+Frontend tasarım	       User register,login	           1-3 Mayıs	                   Tuğçe
+Database                   User register,login             1-3 Mayıs                        Aslı
+Testing                    User register,login             1-3 Mayıs                       Bengisu
+Backend API geliştirme	   feature to add new project      4-7 Mayıs	                   Melisa
+Frontend tasarım	       feature to add new project 	   4-7 Mayıs	                   Tuğçe
+Database                   feature to add new project      4-7 Mayıs                        Aslı
+Testing                    feature to add new project      4-7 Mayıs                       Bengisu
+Backend API geliştirme	   add sprint, user story 	       7-14 Mayıs	                   Melisa
+Frontend tasarım	       add sprint, user story 	       7-14 Mayıs	                   Tuğçe
+Database                   add sprint, user story 	       7-14 Mayıs                        Aslı
+Testing                    add sprint, user story 	       7-14 Mayıs                      Bengisu
+Backend API geliştirme	   User register,login 	           1-7 Mayıs	                   Melisa
+Frontend tasarım	       User register,login	           1-7 Mayıs	                   Tuğçe
+Database                   User register,login             1-7 Mayıs                        Aslı
+Testing                    User register,login             1-7 Mayıs                       Bengisu
 Deployment	Dockerize et ve AWS EC2'ye kur	15-20 Mayıs	Bengisu
-Test ve Sunum	Testler ve küçük düzeltmeler	21 Mayıs	Bengisu
+Test ve Sunum	Testler ve küçük düzeltmeler	21 Mayıs	Tuğçe
