@@ -149,3 +149,11 @@ class Task:
     def __init__(self, name, price):
         self.name = name
         self.price = price
+
+class Heyo:
+    def __init__(self, customer):
+        self.customer = customer
+        self.products = customer.cart.copy()
+
+    def total_price(self):
+        return sum(product.price for product in self.products)
