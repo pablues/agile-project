@@ -102,3 +102,23 @@ class Course:
         self.name = name
         self.teacher = teacher
 
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+class Customer:
+    def __init__(self, name):
+        self.name = name
+        self.cart = []
+
+    def add_to_cart(self, product):
+        self.cart.append(product)
+
+class Order:
+    def __init__(self, customer):
+        self.customer = customer
+        self.products = customer.cart.copy()
+
+    def total_price(self):
+        return sum(product.price for product in self.products)
