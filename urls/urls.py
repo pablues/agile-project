@@ -1,4 +1,4 @@
-
+# This file is part of a simple URL dispatcher for a web application.
 class URLDispatcher:
     def __init__(self):
         self.routes = {}
