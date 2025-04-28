@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following table lists the versions of this project that are currently supported with security updates:
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -14,8 +13,12 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a vulnerability, please report it to us promptly.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- **Where to report**: info@paddle.com
+- **Response time**: You can expect an acknowledgment within [e.g., 48 hours], and regular updates on the status of your report.
+- **What to expect**:  
+  - If the vulnerability is valid, we will work on a fix and credit you (if desired).
+  - If the report is declined (e.g., it’s a duplicate or not considered a security issue), we will provide an explanation.
+
+We appreciate responsible disclosure to keep the community safe!
