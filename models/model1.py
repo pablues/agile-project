@@ -81,3 +81,24 @@ print("\nGeorge Orwell'ın Kitapları:")
 books_by_orwell = library.find_books_by_author("George Orwell")
 for book in books_by_orwell:
     print(book.title)
+
+
+class Teacher:
+    def __init__(self, name, subject):
+        self.name = name
+        self.subject = subject
+
+class Student:
+    def __init__(self, name, grade):
+        self.name = name
+        self.grade = grade
+        self.courses = []
+
+    def enroll(self, course):
+        self.courses.append(course)
+
+class Course:
+    def __init__(self, name, teacher):
+        self.name = name
+        self.teacher = teacher
+
