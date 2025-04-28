@@ -143,3 +143,9 @@ class Order:
 
     def total_price(self):
         return sum(product.price for product in self.products)
+
+    
+class Task:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
