@@ -104,7 +104,7 @@ Hangi işi hangi tarihe kadar bitirmek istiyorsun?
 
 Sprint Sprint ayırabilirsin (Agile yapıyorsan).
 
-Örnek Timeline:
+Timeline:
 
 1-7 Mayıs: Backend API geliştir
 
@@ -114,15 +114,10 @@ Sprint Sprint ayırabilirsin (Agile yapıyorsan).
 
 21 Mayıs: Deployment
 
-5. Kaynakları Belirle
-Kim çalışacak? (Sen tek başına mı yapıyorsun? Ekip var mı?)
+Our team: Melisa Backend, Tuğçe Frontend, 
 
-Hangi araçları kullanacaksın? (örneğin Django, PostgreSQL, Docker)
-
-6. Riskleri Önceden Düşün
-Nerelerde sorun çıkabilir?
-
-Mesela AWS'de deploy zorlukları, veri tabanı problemleri, vs.
+Tools we use:
+Django for framework, PostgreSQL for database, Docker.
 
 Risks:
 
