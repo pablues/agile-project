@@ -40,6 +40,19 @@ class Book:
 
         def find_books_by_author(self, author_name):
             return [book for book in self.books if book.author.name == author_name]
+        
+        def update_book(self, old_title, new_title=None, new_description=None, new_date=None):
+            for book in self.books:
+                if book.title == old_title:
+                    if new_title:
+                        book.title = new_title
+                    if new_description:
+                        book.description = new_description
+                    if new_date:
+                        book.published_date = new_date
+                    print(f"Book '{old_title}' updated successfully.")
+                    return
+        print(f"Book" '{old_title}' "not found.")
 
 # main.py
 
